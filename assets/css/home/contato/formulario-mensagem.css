@@ -1,0 +1,9 @@
+.formulario__mensagem{
+  all: unset;
+  background: var(--branco);
+  border-bottom: 1px solid var(--cinza);
+  border-radius: 5px;
+  height: 100px;
+  padding: 1rem .6rem;
+  margin-bottom: .5rem;
+}

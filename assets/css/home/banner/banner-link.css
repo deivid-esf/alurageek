@@ -1,0 +1,7 @@
+.banner__link{
+  width: fit-content;
+  padding: 1rem .8rem;
+  background-color: var(--azul);
+  color: var(--branco);
+  text-decoration: none;
+}

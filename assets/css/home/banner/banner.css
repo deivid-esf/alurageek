@@ -1,0 +1,29 @@
+.secao-banner{
+  height: 60vh;
+  background: url(../../../img/banner.webp) no-repeat top / cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.secao-banner::before{
+  content: "";
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(47,117,138,0) 100%);   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner__conteudo{
+  width: 100%;
+  height: 60%;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  position: relative;
+}

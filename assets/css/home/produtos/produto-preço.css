@@ -1,0 +1,6 @@
+.produto__preco{
+  color: var(--preto);
+  font-weight: 700;
+  opacity: .7;
+  margin: .5rem 0;
+}

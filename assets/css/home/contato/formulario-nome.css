@@ -1,0 +1,19 @@
+.formulario__campo{
+  background-color: var(--branco);
+  border-bottom: 1px solid var(--cinza);
+  border-radius: 5px;
+  
+  display: flex;
+  flex-direction: column;
+  padding: .6rem;
+  margin: 1rem 0;
+}
+.formulario__nome{
+  all: unset;
+  margin-top: .5rem;
+}
+.formulario__label-nome{
+  color: var(--preto);
+  opacity: .7;
+  font-size: .8rem;
+}

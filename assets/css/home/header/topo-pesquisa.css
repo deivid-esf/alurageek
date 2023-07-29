@@ -1,0 +1,23 @@
+.topo__pesquisa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 50%;
+  background-color: var(--cinza-claro);
+  border-radius: 1rem;
+  padding: .5rem .8rem;
+}
+
+.topo__input-pesquisa, .topo__botao-pesquisa{
+  all: unset;
+}
+.topo__botao-pesquisa{
+  cursor: pointer;
+  opacity: .5;
+}
+.topo__input-pesquisa{
+  width: 100%;
+  color: var(--preto);
+  font-size: .8rem;
+}

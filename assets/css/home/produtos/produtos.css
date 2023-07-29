@@ -1,0 +1,15 @@
+.secao-produtos{
+  display: flex;
+  background-color: var(--cinza-claro);
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.produtos-conteudo{
+  width: 100%;
+}
+.produtos{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
