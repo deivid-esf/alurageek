@@ -1,0 +1,8 @@
+.secao-produtos{
+  background-color: var(--cinza-claro);
+  min-height: calc(100vh - 7rem);
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+  
+}

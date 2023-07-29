@@ -1,0 +1,5 @@
+.produtos__topo{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}

@@ -2,3 +2,8 @@
   font-size: .8rem;
   color: var(--preto);
 }
+.produto__id{
+  opacity: .8;
+  font-size: .8rem;
+  margin-top: .5rem;
+}
