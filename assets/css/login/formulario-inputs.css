@@ -1,0 +1,8 @@
+.login__email, .login__senha{
+  all: unset;
+  background: var(--branco);
+  border-bottom: 1px solid var(--cinza);
+  border-radius: 5px;
+  height: 4rem;
+  padding-left: 1rem;
+}

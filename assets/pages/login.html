@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraGeek - Login</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/root.css" />
+  <link rel="stylesheet" href="../css/header/topo.css">
+  <link rel="stylesheet" href="../css/header/topo-div.css" />
+  <link rel="stylesheet" href="../css/header/topo-logo.css" />
+  <link rel="stylesheet" href="../css/header/topo-pesquisa.css" />
+  <link rel="stylesheet" href="../css/login/formulario-botao.css" />
+  <link rel="stylesheet" href="../css/login/formulario-inputs.css" />
+  <link rel="stylesheet" href="../css/login/formulario-login.css" />
+  <link rel="stylesheet" href="../css/login/formulario-titulo.css" />
+  <link rel="stylesheet" href="../css/login/login-container.css" />
+  <link rel="stylesheet" href="../css/login/secao-login.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-item.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-link.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-lista.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-logo.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-nav.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes.css" />
+  <link rel="stylesheet" href="../css/footer/contato/contato-formulario.css" />
+  <link rel="stylesheet" href="../css/footer/contato/contato-titulo.css" />
+  <link rel="stylesheet" href="../css/footer/contato/contato.css" />
+  <link rel="stylesheet" href="../css/footer/contato/formulario-botao.css" />
+  <link rel="stylesheet" href="../css/footer/contato/formulario-mensagem.css" />
+  <link rel="stylesheet" href="../css/footer/contato/formulario-nome.css" />
+  <link rel="stylesheet" href="../css/footer/footer.css" />
+
+</head>
+<body>
+  <header>
+    <div class="topo largura-limitada">
+      <img class="topo__logo" src="../img/logo.png" alt="Logo do AluraGeek">
+      <div class="topo__div">
+        <div class="topo__pesquisa">
+          <input class="topo__input-pesquisa" type="text" placeholder="O que deseja encontrar?" data-pesquisa>
+          <button class="topo__botao-pesquisa" data-botao-pesquisa><img src="../img/lupa.svg" alt="Lupa"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="secao-login">
+      <div class="login">
+        <h1 class="login__titulo">Iniciar Sessão</h1>
+        <form action="" class="login__formulario" data-login-formulario>
+          <input type="email" class="login__email" placeholder="Escreva seu email" minlength="4" data-login-email>
+          <input type="password" class="login__senha" placeholder="Escreva sua senha" minlength="6" data-login-senha></input>
+          <button type="submit" class="login__botao">Entrar</button>
+          <span class="login__erro" data-login-erro></span>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="secao-footer">
+      <div class="foot-content largura-limitada">
+        <section class="informacoes">
+          <img src="../img/logo.png" alt="Logo da Alura" class="informacoes__logo">
+          <nav class="informacoes__nav">
+            <ul class="informacoes__lista">
+              <li class="informacoes__item"><a href="" class="informacoes__link">Quem somos nós</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Política de privacidade</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Programa fidelidade</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Nossas lojas</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Quero ser franqueado</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Anuncie aqui</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="contato">
+          <h3 class="contato__titulo">Fale conosco</h3>
+          <form action="" class="contato__formulario">
+            <div class="formulario__campo">
+
+              <label class="formulario__label-nome">Nome</label>
+              <input type="text" class="formulario__nome">
+
+            </div>
+            <textarea class="formulario__mensagem" placeholder="Escreva sua mensagem"></textarea>
+            <button class="formulario__botao">Enviar mensagem</button>
+          </form>
+        </section>
+      </div>
+    </section>
+    <section class="footer">
+      <p class="footer__texto">Desenvolvido por Deivid Esteferson<br />2023</p>
+    </section>
+  </footer>
+  <script src="../js/validaLogin.js"></script>
+</body>
+</html>

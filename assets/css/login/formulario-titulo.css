@@ -1,0 +1,5 @@
+.login__titulo{
+  color: var(--preto);
+  opacity: .8;
+  margin-bottom: 2rem;
+}

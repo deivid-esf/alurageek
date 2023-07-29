@@ -1,0 +1,13 @@
+.login__botao{
+  all: unset;
+  background: var(--azul);
+  color: var(--branco);
+  text-align: center;
+  height: 4rem;
+  cursor: pointer;
+}
+.login__erro{
+  color: red;
+  opacity: .7;
+  font-size: .8rem;
+}
