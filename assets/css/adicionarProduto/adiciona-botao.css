@@ -1,0 +1,8 @@
+.adiciona__botao{
+    all: unset;
+    background: var(--azul);
+    color: var(--branco);
+    text-align: center;
+    padding: 1rem 2rem;
+  
+}

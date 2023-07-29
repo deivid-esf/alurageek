@@ -1,0 +1,13 @@
+.secao-adiciona-produto{
+  background: var(--cinza-claro);
+  min-height: calc(100vh - 7rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adiciona-container{
+  padding: 5rem 0;
+  max-width: 500px;
+  width: 100%;
+  min-height: 300px;
+}

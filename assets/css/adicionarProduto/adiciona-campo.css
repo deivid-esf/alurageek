@@ -1,0 +1,29 @@
+.adiciona__campos{
+  background-color: var(--branco);
+  border-bottom: 1px solid var(--cinza);
+  border-radius: 5px;
+  
+  display: flex;
+  flex-direction: column;
+  padding: .6rem;
+  margin: 1rem 0;
+}
+.adiciona__input{
+  all: unset;
+  margin-top: .5rem;
+}
+
+.adiciona__label-nome{
+  color: var(--preto);
+  opacity: .7;
+  font-size: .8rem;
+}
+.adiciona__descricao{
+  all: unset;
+  background: var(--branco);
+  border-bottom: 1px solid var(--cinza);
+  border-radius: 5px;
+  height: 4rem;
+  padding: 1rem .6rem;
+  margin-bottom: .5rem;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar produto - AluraGeek</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/root.css" />
+  <link rel="stylesheet" href="../css/header/topo.css" />
+  <link rel="stylesheet" href="../css/header/topo-link.css">
+  <link rel="stylesheet" href="../css/header/topo-div.css" />
+  <link rel="stylesheet" href="../css/header/topo-logo.css" />
+  <link rel="stylesheet" href="../css/header/topo-pesquisa.css" />
+  <link rel="stylesheet" href="../css/adicionarProduto/adiciona-botao.css" />
+  <link rel="stylesheet" href="../css/adicionarProduto/adiciona-campo.css" />
+  <link rel="stylesheet" href="../css/adicionarProduto/adiciona-titulo.css" />
+  <link rel="stylesheet" href="../css/adicionarProduto/adiciona_formulario.css" />
+  <link rel="stylesheet" href="../css/adicionarProduto/secao-adiciona.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-item.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-link.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-lista.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-logo.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes-nav.css" />
+  <link rel="stylesheet" href="../css/footer/informacoes/informacoes.css" />
+  <link rel="stylesheet" href="../css/footer/contato/contato-formulario.css" />
+  <link rel="stylesheet" href="../css/footer/contato/contato-titulo.css" />
+  <link rel="stylesheet" href="../css/footer/contato/contato.css" />
+  <link rel="stylesheet" href="../css/footer/contato/formulario-botao.css" />
+  <link rel="stylesheet" href="../css/footer/contato/formulario-mensagem.css" />
+  <link rel="stylesheet" href="../css/footer/contato/formulario-nome.css" />
+  <link rel="stylesheet" href="../css/footer/footer.css" />
+
+</head>
+
+<body>
+  <header>
+    <div class="topo largura-limitada">
+      <img class="topo__logo" src="../img/logo.png" alt="Logo do AluraGeek">
+      <div class="topo__div">
+        <div class="topo__pesquisa">
+          <input class="topo__input-pesquisa" type="text" placeholder="O que deseja encontrar?" data-pesquisa>
+          <button class="topo__botao-pesquisa" data-botao-pesquisa><img src="../img/lupa.svg" alt="Lupa"></button>
+        </div>
+
+        <a href="../../produtos.html" class="topo__link">Menu administrador</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="secao-adiciona-produto">
+      <div class="adiciona-container largura-limitada">
+        <h1 class="adiciona__titulo">Adicionar novo produto</h1>
+        <form action="" class="adiciona__formulario">
+          <div class="adiciona__campos">
+
+            <label class="adiciona__label-nome">URL da imagem</label>
+            <input type="text" class="adiciona__input">
+
+          </div>
+          <div class="adiciona__campos">
+
+            <label class="adiciona__label-nome">Categoria</label>
+            <input type="text" class="adiciona__input">
+
+          </div>
+          <div class="adiciona__campos">
+
+            <label class="adiciona__label-nome">Nome do produto</label>
+            <input type="text" class="adiciona__input">
+
+          </div>
+          <div class="adiciona__campos">
+
+            <label class="adiciona__label-nome">Preço do Produto</label>
+            <input type="text" class="adiciona__input">
+
+          </div>
+          <textarea class="adiciona__descricao" placeholder="Descrição do produto"></textarea>
+          <button class="adiciona__botao">Adicionar produto</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="secao-footer">
+      <div class="foot-content largura-limitada">
+        <section class="informacoes">
+          <img src="../img/logo.png" alt="Logo da Alura" class="informacoes__logo">
+          <nav class="informacoes__nav">
+            <ul class="informacoes__lista">
+              <li class="informacoes__item"><a href="" class="informacoes__link">Quem somos nós</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Política de privacidade</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Programa fidelidade</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Nossas lojas</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Quero ser franqueado</a></li>
+              <li class="informacoes__item"><a href="" class="informacoes__link">Anuncie aqui</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="contato">
+          <h3 class="contato__titulo">Fale conosco</h3>
+          <form action="" class="contato__formulario">
+            <div class="formulario__campo">
+
+              <label class="formulario__label-nome">Nome</label>
+              <input type="text" class="formulario__nome">
+
+            </div>
+            <textarea class="formulario__mensagem" placeholder="Escreva sua mensagem"></textarea>
+            <button class="formulario__botao">Enviar mensagem</button>
+          </form>
+        </section>
+      </div>
+    </section>
+    <section class="footer">
+      <p class="footer__texto">Desenvolvido por Deivid Esteferson<br />2023</p>
+    </section>
+  </footer>
+</body>
+
+</html>
