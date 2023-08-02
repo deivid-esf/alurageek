@@ -1,7 +1,10 @@
+.produtos__botoes{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
 .produtos__botao{
   all: unset;
-  background: var(--azul);
-  color: var(--branco);
   cursor: pointer;
-  padding: 1rem .7rem; 
+  margin-left: 5px;
 }

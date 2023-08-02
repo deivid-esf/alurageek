@@ -1,130 +1,165 @@
 {
   "produtos": [
-  {
-    "name": "Produto XYZ",
-    "categoria": "star",
-    "imagem": "./assets/img/star/star1.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Produto XYZ",
-    "categoria": "star",
-    "imagem": "./assets/img/star/star2.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Produto XYZ",
-    "categoria": "star",
-    "imagem": "./assets/img/star/star3.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Produto XYZ",
-    "categoria": "star",
-    "imagem": "./assets/img/star/star4.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Produto XYZ",
-    "categoria": "star",
-    "imagem": "./assets/img/star/star5.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Produto XYZ",
-    "categoria": "star",
-    "imagem": "./assets/img/star/star6.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Controle XYZ",
-    "categoria": "consoles",
-    "imagem": "./assets/img/console/console1.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Controle e console XYZ",
-    "categoria": "consoles",
-    "imagem": "./assets/img/console/console2.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Console XYZ",
-    "categoria": "consoles",
-    "imagem": "./assets/img/console/console3.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Controle XYZ",
-    "categoria": "consoles",
-    "imagem": "./assets/img/console/console4.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Controle XYZ",
-    "categoria": "consoles",
-    "imagem": "./assets/img/console/console5.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Game Boy Color",
-    "categoria": "consoles",
-    "imagem": "./assets/img/console/console6.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Camisa Atari",
-    "categoria": "diversos",
-    "imagem": "./assets/img/diversos/diversos1.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Camisa SNES",
-    "categoria": "diversos",
-    "imagem": "./assets/img/diversos/diversos2.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Controle e console XYZ",
-    "categoria": "diversos",
-    "imagem": "./assets/img/diversos/diversos3.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Console e controle XYZ",
-    "categoria": "diversos",
-    "imagem": "./assets/img/diversos/diversos4.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Camisa",
-    "categoria": "diversos",
-    "imagem": "./assets/img/diversos/diversos5.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  },
-  {
-    "name": "Pelúcia Pikachu",
-    "categoria": "diversos",
-    "imagem": "./assets/img/diversos/diversos6.svg",
-    "preco": "60,00",
-    "id": "1111111" 
-  }
-]
+    {
+      "name": "Produto XYZ",
+      "categoria": "star",
+      "imagem": "./assets/img/star/star1.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Produto XYZ",
+      "categoria": "star",
+      "imagem": "./assets/img/star/star2.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Produto XYZ",
+      "categoria": "star",
+      "imagem": "./assets/img/star/star3.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Produto XYZ",
+      "categoria": "star",
+      "imagem": "./assets/img/star/star4.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Produto XYZ",
+      "categoria": "star",
+      "imagem": "./assets/img/star/star5.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Produto XYZ",
+      "categoria": "star",
+      "imagem": "./assets/img/star/star6.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Controle XYZ",
+      "categoria": "consoles",
+      "imagem": "./assets/img/console/console1.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Controle e console XYZ",
+      "categoria": "consoles",
+      "imagem": "./assets/img/console/console2.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Console XYZ",
+      "categoria": "consoles",
+      "imagem": "./assets/img/console/console3.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Controle XYZ",
+      "categoria": "consoles",
+      "imagem": "./assets/img/console/console4.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Controle XYZ",
+      "categoria": "consoles",
+      "imagem": "./assets/img/console/console5.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Game Boy Color",
+      "categoria": "consoles",
+      "imagem": "./assets/img/console/console6.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Camisa Atari",
+      "categoria": "diversos",
+      "imagem": "./assets/img/diversos/diversos1.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Camisa SNES",
+      "categoria": "diversos",
+      "imagem": "./assets/img/diversos/diversos2.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Controle e console XYZ",
+      "categoria": "diversos",
+      "imagem": "./assets/img/diversos/diversos3.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Console e controle XYZ",
+      "categoria": "diversos",
+      "imagem": "./assets/img/diversos/diversos4.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Camisa",
+      "categoria": "diversos",
+      "imagem": "./assets/img/diversos/diversos5.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "Pelúcia Pikachu",
+      "categoria": "diversos",
+      "imagem": "./assets/img/diversos/diversos6.svg",
+      "preco": "60,00",
+      "id": "1111111"
+    },
+    {
+      "name": "adesivo",
+      "categoria": "diversos",
+      "imagem": "https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg",
+      "preco": "90",
+      "id": "_2TL3RQ"
+    },
+    {
+      "name": "adesivo",
+      "categoria": "diversos",
+      "imagem": "https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg",
+      "preco": "90",
+      "id": 111111
+    },
+    {
+      "name": "Gato",
+      "categoria": "diversos",
+      "imagem": "https://www.ospaparazzi.com/imagem/201207/03145736.jpg",
+      "preco": "90,75",
+      "id": "9PADvt8"
+    },
+    {
+      "name": "Gato de botas",
+      "categoria": "star",
+      "imagem": "https://www.petz.com.br/blog/wp-content/uploads/2021/11/enxoval-para-gato-Copia.jpg",
+      "preco": "90,85",
+      "id": "u8MV1YZ"
+    },
+    {
+      "name": "Leao malvadao",
+      "categoria": "diversos",
+      "imagem": "https://img.freepik.com/fotos-gratis/imagem-aproximada-da-cabeca-de-um-lindo-leao_181624-35855.jpg?w=2000",
+      "preco": "1500,00",
+      "id": "aE_3woN"
+    }
+  ]
 }

@@ -5,12 +5,13 @@
   padding: 5rem 0;
 }
 
-.produtos-conteudo{
+.produtos-content{
   width: 100%;
 }
 .produtos{
   display: flex;
   gap: 20px;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;

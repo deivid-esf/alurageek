@@ -52,32 +52,32 @@
     <section class="secao-adiciona-produto">
       <div class="adiciona-container largura-limitada">
         <h1 class="adiciona__titulo">Adicionar novo produto</h1>
-        <form action="" class="adiciona__formulario">
+        <form action="" class="adiciona__formulario" data-adiciona-formulario>
           <div class="adiciona__campos">
 
             <label class="adiciona__label-nome">URL da imagem</label>
-            <input type="text" class="adiciona__input">
+            <input type="text" class="adiciona__input" data-adiciona-imagem>
 
           </div>
           <div class="adiciona__campos">
 
             <label class="adiciona__label-nome">Categoria</label>
-            <input type="text" class="adiciona__input">
+            <input type="text" class="adiciona__input" data-adiciona-categoria>
 
           </div>
           <div class="adiciona__campos">
 
             <label class="adiciona__label-nome">Nome do produto</label>
-            <input type="text" class="adiciona__input">
+            <input type="text" class="adiciona__input" data-adiciona-nome>
 
           </div>
           <div class="adiciona__campos">
 
             <label class="adiciona__label-nome">Preço do Produto</label>
-            <input type="text" class="adiciona__input">
+            <input type="text" class="adiciona__input" data-adiciona-preco>
 
           </div>
-          <textarea class="adiciona__descricao" placeholder="Descrição do produto"></textarea>
+          <textarea class="adiciona__descricao" placeholder="Descrição do produto" data-adiciona-descricao></textarea>
           <button class="adiciona__botao">Adicionar produto</button>
         </form>
       </div>
@@ -118,6 +118,7 @@
       <p class="footer__texto">Desenvolvido por Deivid Esteferson<br />2023</p>
     </section>
   </footer>
+  <script src="../js/criaProduto.js" type="module"></script>
 </body>
 
 </html>

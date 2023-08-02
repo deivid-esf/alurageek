@@ -1,0 +1,7 @@
+.produtos__adiciona{
+  all: unset;
+  background: var(--azul);
+  color: var(--branco);
+  cursor: pointer;
+  padding: 1rem .7rem; 
+}
