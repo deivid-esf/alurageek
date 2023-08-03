@@ -21,6 +21,12 @@ footer{
   padding: 3rem 0;
 }
 .foot-content{
-  width: 100%;
+  width: 90%;
   display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (width < 468px) {
+  .foot-content{
+    justify-content: center;
+  }
 }

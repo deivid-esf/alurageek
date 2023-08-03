@@ -2,3 +2,9 @@
   color: var(--branco);
   font-size: 1.7rem;
 }
+@media screen and (width < 468px) {
+  .banner__descricao{
+    font-size: .9rem;
+    margin-bottom: .5rem;
+  }
+}

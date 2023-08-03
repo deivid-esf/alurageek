@@ -6,7 +6,7 @@ function apagarProduto(produto) {
   produto.remove();
 }
 
-function exibeElementos (nome, preco, imagem, id){
+export default function exibeElementos (nome, preco, imagem, id){
   const produto = document.createElement("div");
   produto.className = "produto";
 
@@ -47,30 +47,10 @@ async function listaDeProdutos() {
   listaApi.forEach(elemento => produtosContainer.appendChild(
       exibeElementos(elemento.name, elemento.preco, elemento.imagem, elemento.id)))
   } catch{
-      produtosContainer.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vídeos</h2>`
+      produtosContainer.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de produtos</h2>`
   }
 }
 
-const BotaoDeleta = () => {
-  const botaoDeleta = document.createElement("button");
-
-  botaoDeleta.innerText = "deletar";
-  botaoDeleta.addEventListener("click", deletarTarefa);
-
-  return botaoDeleta;
-};
-
-const deletarTarefa = (evento) => {
-  const botaoDeleta = evento.target;
-
-  const tarefaCompleta = botaoDeleta.parentElement;
-
-  tarefaCompleta.remove();
-
-  return botaoDeleta;
-};
-
-export default BotaoDeleta;
 listaDeProdutos()
 
 export const exibicao = {

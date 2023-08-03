@@ -3,7 +3,12 @@ import exibeElementos from "./exibeElementos.js"
 
 async function buscarVideo(e) {
   e.preventDefault();
+  const campoPesquisa = document.querySelector("[data-pesquisa");
 
+  if (window.innerWidth < 500) {
+    campoPesquisa.style.display = 'block';
+    campoPesquisa.style.paddingLeft = '10px'
+  }
   const termoPesquisado = document.querySelector("[data-pesquisa]").value;
   const busca = await acessoApi.buscaProduto(termoPesquisado);
 

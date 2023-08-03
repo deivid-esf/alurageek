@@ -2,3 +2,8 @@
   color: var(--branco);
   font-size: 4rem;
 }
+@media screen and (width < 468px) {
+  .banner__titulo{
+    font-size: 1.75rem;
+  }
+}

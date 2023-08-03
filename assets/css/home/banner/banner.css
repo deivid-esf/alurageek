@@ -7,7 +7,6 @@
   align-items: center;
   position: relative;
 }
-
 .secao-banner::before{
   content: "";
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(47,117,138,0) 100%);   width: 100%;
@@ -18,7 +17,7 @@
 }
 
 .banner__conteudo{
-  width: 100%;
+  width: 90%;
   height: 60%;
   align-self: flex-end;
   display: flex;
@@ -26,4 +25,12 @@
   justify-content: space-between;
   padding-bottom: 3rem;
   position: relative;
+}
+
+@media screen and (width < 468px){
+  .secao-banner{
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+  }
 }

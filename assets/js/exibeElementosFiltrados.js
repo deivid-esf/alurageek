@@ -9,7 +9,7 @@ async function exibeElementosFiltrados (elemento){
     lista.forEach(produto => produtoDiv.appendChild(
       exibicao.exibeElementosHome(produto.name, produto.preco, produto.imagem)))
     } catch {
-      produtosContainer.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vídeos</h2>`
+      produtoDiv.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de produtos</h2>`
     }
 }
 

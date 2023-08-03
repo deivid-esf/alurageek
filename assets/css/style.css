@@ -10,3 +10,9 @@
 .largura-limitada{
   max-width: 1024px;
 }
+
+@media screen and (width < 800px) {
+  .largura-limitada{
+    max-width: 600px;
+  }
+}

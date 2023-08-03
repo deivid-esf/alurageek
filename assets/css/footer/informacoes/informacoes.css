@@ -1,6 +1,12 @@
 .informacoes{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 50%;
 }
-
+@media screen and (width < 468px){
+ .informacoes{
+  width: 100%;
+  justify-content: center;
+ }
+}

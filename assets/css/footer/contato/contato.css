@@ -1,3 +1,9 @@
 .contato{
   width: 50%;
 }
+
+@media screen and (width < 468px){
+  .contato{
+    width: 100%;
+  }
+}

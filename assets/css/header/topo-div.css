@@ -4,3 +4,8 @@
   align-items: center;
   width: 100%;
 }
+@media screen and (width < 768px) {
+  .topo__div{
+    flex-flow: row-reverse;
+  }
+}

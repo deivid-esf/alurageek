@@ -21,3 +21,23 @@
   color: var(--preto);
   font-size: .8rem;
 }
+@media screen and (width < 468px) {
+  .topo__pesquisa{
+    background: none;
+    margin-left: .5rem;
+    width: 100%;
+    position: relative;
+  }
+  .topo__botao-pesquisa{
+    opacity: 1;
+  }
+  .topo__input-pesquisa{
+    display: none;
+    width: fit-content;
+    height: 100%;
+    position: absolute;
+    background: var(--cinza-claro);
+    top: 0;
+    right: 50px;
+  }
+}
