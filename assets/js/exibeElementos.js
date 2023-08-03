@@ -45,7 +45,8 @@ async function listaDeProdutos() {
   try {
   const listaApi = await acessoApi.listaDeProdutos();
   listaApi.forEach(elemento => produtosContainer.appendChild(
-      exibeElementos(elemento.name, elemento.preco, elemento.imagem, elemento.id)))
+      exibeElementos(elemento.name, elemento.preco, elemento.imagem, elemento.id)));
+    console.log(listaApi.length)
   } catch{
       produtosContainer.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de produtos</h2>`
   }

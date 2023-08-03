@@ -1,3 +1,5 @@
+import { acessoApi } from "./acessaApi.js";
+
 function convertePreco (preco) {
   let precoConvertido = preco.replace(",", ".");
   precoConvertido = parseFloat(precoConvertido);
@@ -14,8 +16,16 @@ function letraMaiuscula (palavra) {
 
   return palavraMaiuscula;
 }
+async function id (){
+  const listaApi = await acessoApi.listaDeProdutos();
 
+  const lastId = listaApi.length;
+  const newId = lastId++
+
+  return newId;
+}
 export const converteDados = {
   convertePreco,
-  letraMaiuscula
+  letraMaiuscula,
+  id
 }

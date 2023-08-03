@@ -1,12 +1,14 @@
+import { converteDados } from "./converteDados.js";
+
 async function listaDeProdutos() {
-  const listaAcessada = await fetch("http://localhost:3000/produtos");
+  const listaAcessada = await fetch("https://64cbf6502eafdcdc85198627.mockapi.io/produtos");
   const listaConvertida = await listaAcessada.json();
 
   return listaConvertida;
 }
 
-async function criaProduto(title, categoria, imagem, preco, descricao) {
-  const listaAcessada = await fetch("http://localhost:3000/produtos", {
+async function criaProduto(title, categoria, imagem, preco) {
+  const listaAcessada = await fetch("https://64cbf6502eafdcdc85198627.mockapi.io/produtos", {
     method: "POST",
     headers: {
       "Content-type": "application/json",
@@ -15,7 +17,8 @@ async function criaProduto(title, categoria, imagem, preco, descricao) {
       name: title,
       categoria: categoria,
       imagem: imagem,
-      preco: preco
+      preco: preco,
+      id: converteDados.id
     }),
   });
   if (!listaAcessada.ok) {
@@ -36,7 +39,7 @@ async function filtraCategoria(categoria) {
 }
 
 async function buscaProduto(termoDeBusca) {
-  const acessoApi = await fetch(`http://localhost:3000/produtos?q=${termoDeBusca}`);
+  const acessoApi = await fetch(`https://64cbf6502eafdcdc85198627.mockapi.io/produtos?q=${termoDeBusca}`);
   const acessoConvertido = await acessoApi.json();
 
   return acessoConvertido;
