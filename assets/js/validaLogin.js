@@ -17,7 +17,7 @@ function validaEmailFormato(email) {
    
    if (validaEmailFormato(email) && validaSenha(senha)) {
      mensagemErro.textContent = '';
-     window.location.href = '../../../produtos.html'
+     window.location.href = './produtos.html'
   } else{
     mensagemErro.textContent = "Por favor, revise os campos!";
   }

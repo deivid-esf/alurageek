@@ -17,7 +17,7 @@ async function criarProduto(e) {
   categoria = categoria.toLowerCase();
   try {
     await acessoApi.criaProduto(nomeMaiusculo, categoria, imagem, precoConvertido)
-    window.location.href = '../../produtos.html'
+    window.location.href = './produtos.html'
   } catch (e) {
     alert(e)
   }

@@ -27,3 +27,10 @@
   padding: 1rem .6rem;
   margin-bottom: .5rem;
 }
+.adiciona__input--optgroup{
+  margin-top: .5rem;
+  border: none;
+  border-radius: 2.5px;
+  padding: .3rem;
+  background: var(--cinza-claro);
+}

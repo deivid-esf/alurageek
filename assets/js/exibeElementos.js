@@ -14,8 +14,8 @@ export default function exibeElementos (nome, preco, imagem, id){
     <div class="produto">
     <img src="${imagem}" alt="Caneca" class="produto__imagem">
     <div class="produtos__botoes">
-    <button class="produtos__botao" data-botao-edita><img src="./assets/img/editar.svg" ></button>
-    <button class="produtos__botao" data-botao-apaga><img src="./assets/img/apagar.svg" ></button>
+    <button class="produtos__botao" data-botao-edita><img src="../img/editar.svg" ></button>
+    <button class="produtos__botao" data-botao-apaga><img src="../img/apagar.svg" ></button>
     </div>
     <p class="produto__nome">${nome}</p>
     <p class="produto__preco">R$ ${preco}</p>
