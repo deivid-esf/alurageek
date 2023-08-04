@@ -35,7 +35,7 @@ function exibeElementosHome (nome, preco, imagem){
     <img src="${imagem}" alt="Caneca" class="produto__imagem">
     <p class="produto__nome">${nome}</p>
     <p class="produto__preco">R$ ${preco}</p>
-    <a href="./produtos.html" class="produto__link">Ver produto</p>
+    <a href="./assets/pages/produtos.html" class="produto__link">Ver produto</p>
   </div>
     `
   return produto;
